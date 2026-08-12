@@ -17,6 +17,15 @@ class Cliente extends Pessoas {
         console.log("Tipo: Cliente");
         console.log("Pontos: " + this.#pontosFidelidade);
     }
+
+    calcularDesconto() {
+    if (this.#pontosFidelidade > 100) {
+        return 10;
+    } else {
+        return 0;
+    }
+}
+
 }
 
 module.exports = Cliente;

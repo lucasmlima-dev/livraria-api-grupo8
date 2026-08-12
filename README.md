@@ -13,7 +13,10 @@ Escola SENAI "Santo Paschoal Crepaldi" — Turma 1-2026-SESI_DEV_OC_1
 
 | Bloco | Integrante | O que ficou sob responsabilidade dele(a) |
 |---|---|---|
-| Bloco 1 | *(a preencher)* | *(a preencher)* |
+| Bloco 1 | Isabela | Pessoas.js |
+| Bloco 2 | Heloisa | Cliente.js |
+| Bloco 3 | Lucas | Funcionario.js |
+| Bloco 4 | Guilherme | testar.js |
 
 > Esta tabela é atualizada **a cada bloco**, com rodízio de responsabilidades entre os participantes.
 
