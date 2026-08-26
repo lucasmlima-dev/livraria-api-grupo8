@@ -1,0 +1,18 @@
+{
+  "name": "livraria-api-grupo8",
+  "version": "1.0.0",
+  "description": "Projeto da UC de Programação Back-End — Curso Técnico em Desenvolvimento de Sistemas\r Escola SENAI \"Santo Paschoal Crepaldi\" — Turma 1-2026-SESI_DEV_OC_1",
+  "main": "Administrador.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
