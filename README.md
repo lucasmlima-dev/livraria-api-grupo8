@@ -25,14 +25,14 @@ Escola SENAI "Santo Paschoal Crepaldi" — Turma 1-2026-SESI_DEV_OC_1
 
 ## Decisão sobre a Auditoria e Consolidação de Classes (28/08)
 
-Após a auditoria entre o diagrama UML e o código em `src/models/`, o grupo tomou as seguintes decisões[cite: 3]:
+Após a auditoria entre o diagrama UML e o código em `src/models/`, o grupo tomou as seguintes decisões:
 
 * **Classes a consolidar hoje (28/08):**
   - `LivroFisico.js`: Responsável **Guilherme**
   - `LivroDigital.js`: Responsável **Heloisa**
   - `Carrinho.js`: Responsável **Isabela**
 * **Classes planejadas para o Bloco 3:**
-  - `Pedido` e `ItemPedido`: Permanecem apenas no diagrama UML por enquanto, pois dependem da integração com o banco de dados[cite: 3].
+  - `Pedido` e `ItemPedido`: Permanecem apenas no diagrama UML por enquanto, pois dependem da integração com o banco de dados.
 
 ## Tecnologias
 - Node.js
