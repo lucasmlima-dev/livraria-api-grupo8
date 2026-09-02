@@ -1,4 +1,5 @@
 const Pessoas = require("./Pessoas");
+const BONUS = 0.10;
 
 class Funcionario extends Pessoas {
     #salario;
@@ -13,7 +14,7 @@ class Funcionario extends Pessoas {
     }
 
     calcularBonus() {
-        return this.#salario * 0.1;
+        return this.#salario * BONUS;
     }
 
     apresentar() {
