@@ -34,6 +34,40 @@ Após a auditoria entre o diagrama UML e o código em `src/models/`, o grupo tom
 * **Classes planejadas para o Bloco 3:**
   - `Pedido` e `ItemPedido`: Permanecem apenas no diagrama UML por enquanto, pois dependem da integração com o banco de dados.
 
-## Tecnologias
-- Node.js
-- npm
+## Refatoração (02/09)
+Em 02/09, o projeto foi refatorado para padronizar a estrutura MVC/Services, distribuindo o fluxo de requisições, regras de negócio e rotas para as entidades de Categoria e Livro.
+
+## Diagrama de Classes
+![Diagrama de Classes](https://github.com/lucasmlima-dev/livraria-api-grupo8/blob/main/docs/diagrama-classes-v2.png?raw=true)  
+* Link para visualização: [Diagrama de Classes v2](https://github.com/lucasmlima-dev/livraria-api-grupo8/blob/main/docs/diagrama-classes-v2.png)
+
+## Estrutura do Projeto (MVC)
+```text
+livraria-api-grupo8/
+├── docs/
+├── node_modules/
+├── src/
+│   ├── controllers/
+│   │   ├── categoriaController.js
+│   │   └── livroController.js
+│   ├── models/
+│   │   ├── Administrador.js
+│   │   ├── Carrinho.js
+│   │   ├── Categoria.js
+│   │   ├── Cliente.js
+│   │   ├── Funcionario.js
+│   │   ├── Livro.js
+│   │   ├── LivroDigital.js
+│   │   ├── LivroFisico.js
+│   │   └── Pessoas.js
+│   ├── routes/
+│   │   ├── categoriaRoutes.js
+│   │   └── livroRoutes.js
+│   ├── services/
+│   │   ├── categoriaService.js
+│   │   └── livroService.js
+│   └── index.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
